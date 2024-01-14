@@ -1,0 +1,185 @@
+
+.main{  
+width: 100vw;
+height: 1515px;
+background-color:#F3F7FF;
+scroll-behavior: smooth;
+}
+#frete{
+    padding-top: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+#image-jordan{
+    width: 100vw;
+    height: 380px;
+    border-radius: 5px;
+    
+}
+.content{
+    margin: auto;
+    width: 70vw;
+    height: 1051px;
+    
+}
+.heading{
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Archivo', sans-serif;
+
+}
+.subtitle-heading{
+    margin: auto;
+    width: 51%;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+/* ---------------------ROW 1 -------------------------- */
+/* .row1 {
+    padding-right: 32px;
+    
+    display: flex;
+    justify-content: space-between;
+} */
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "card1 card2 card3"
+                         "card4 card5 card6";
+    gap: 45px;
+    
+}
+.card1{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card1;
+    
+}
+
+#shoes1{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+}   
+#shoes1:hover {
+    transform: scale(1.1);
+}
+.card2{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card2;
+    
+}
+#shoes2{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+}  
+#shoes2:hover {
+    transform: scale(1.1);
+}
+.card3{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card3;
+    
+}
+#shoes3{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+}  
+#shoes3:hover {
+    transform: scale(1.1);
+}
+.card4{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card4;
+    
+}
+#shoes4{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+} 
+#shoes4{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+} 
+#shoes4:hover {
+    transform: scale(1.1);
+}
+.card5{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card5;
+    
+}
+#shoes5{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+} 
+#shoes5:hover {
+    transform: scale(1.1);
+}
+.card6{
+    width: 310px;
+    height: 326px;
+    font-family: 'Archivo', sans-serif;
+    grid-area: card6;
+    
+}
+#shoes6{
+    width: 310px;
+    padding: 15% 15% 15% 15%;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+} 
+#shoes6:hover {
+    transform: scale(1.1);
+}
+
+.nome_tenis{
+    padding-top: 9px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.marca_tenis{
+    padding-top: 9px;
+    color:#7CA2F4;
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.preco_tenis{
+    padding-top: 9px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/* ---------------------ROW 2 -------------------------- */
+/* .row2{
+    margin-top: 40px;
+    
+    display: flex;
+} */
+
